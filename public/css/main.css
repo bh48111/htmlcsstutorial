@@ -1,0 +1,130 @@
+/* XPATH */
+
+body {
+    font-family: Tahoma;
+}
+
+img {
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+img:hover{
+    margin: 30px;
+    border: 2px solid orange;
+    border-radius: 0px;
+    padding: 10px;
+    margin-left: 350px;
+}
+
+
+#title {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+}
+
+#title:hover {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px;
+    color:lightgreen;
+}
+
+.paragraph {
+    margin: 10px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.paragraph:hover {
+    margin: 10px;
+    text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
+    color:yellow;
+}
+
+.dash {
+    top: 100px;
+    left: 200px;
+
+    border: 5px solid lightblue;
+    padding: 5px;
+
+    color: white;
+    background-color: darkblue;
+}
+
+.dash-static {
+    position: static;
+}
+
+.dash-absolute {
+    position: absolute;
+}
+
+.dash-relative {
+    position: relative;
+}
+
+.dash-fixed {
+    position: fixed;
+}
+
+.link{
+    margin: 10px;
+    margin-left: 150px;
+
+}
+
+.link:hover{
+    color: red;
+}
+
+.leftsidefixed{
+    position: fixed;
+
+    top: 10px;
+    left: 10px;
+
+    background-color: darkgreen;
+    border: 20px solid lightgreen;
+
+    border-radius: 20px;
+
+    border-top-width: 715px;
+}
+
+.rightsidefixed{
+    position: fixed;
+
+    top: 10px;
+    left: 1300px;
+
+    background-color: darkgreen;
+    border: 20px solid lightgreen;
+
+    border-radius: 20px;
+
+    border-top-width: 715px;
+}
+
+.space{
+    margin: 100px;
+}
+
+.endparagraph{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.endparagraph:hover{
+    margin-left: 150px;
+    margin-right: 150px;
+    color:deepskyblue;
+}
